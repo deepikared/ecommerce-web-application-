@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Validation</title>
+     <link rel="stylesheet" href="./Validation.css">
+</head>
+<body>
+     <div class="valid">
+          <h2>Login</h2>
+          <form  onsubmit="return validation(event)">
+               <span></span>
+               <input type="text" placeholder="Enter Firstname" class="name" name="fnm"><br>
+               <span></span>
+               <input type="text" placeholder="Enter Lastname" class="name" name="lnm"><br>
+               <div class="sub">
+                    <input type="submit" class="login" value="Login">
+               </div>
+          </form>
+     </div>
+
+     <script src="./Validation.js"></script>
+</body>
+</html>
